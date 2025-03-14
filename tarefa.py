@@ -17,6 +17,8 @@ CATEGORIAS = {
     "Outros": []
 }
 
+#esse é um teste
+
 def organizar_downloads():
     if not os.path.exists(DOWNLOADS_PATH):
         print(f"A pasta {DOWNLOADS_PATH} não existe.")
